@@ -4,25 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV - Three Pane Layout</title>
+    <title>My CV</title>
     <!-- External CSS -->
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/png" href="favicon.png"> <!-- Custom Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
 </head>
 
 <body>
-    <!-- Container for the 3 pane layout -->
     <div class="container">
 
-        <!-- Pane 1: Logo and Navigation (Top) -->
+        <!-- Logo and Navigation (Top) -->
         <div class="header">
-            <img src="logo.png" alt="My Logo" class="logo">
+            <img src="logo.png" alt="Logo" class="logo">
             <nav>
                 <ul>
                     <li><a href="#introduction">Introduction</a></li>
                     <li><a href="#career-summary">Career Summary</a></li>
                     <li><a href="#education">Education</a></li>
-                    <li><a href="#interests">Interests</a></li>
+                    <li><a href="#qualifications">Qualifications</a></li>
+                    <li><a href="#interests">Interests & Hobbies</a></li>
                 </ul>
             </nav>
         </div>
@@ -31,18 +31,15 @@
         <div class="sidebar">
             <h2 id="introduction">Introduction</h2>
             <img src="pp.webp" alt="Profile Picture" class="profile-pic">
-            <h3>John Doe</h3> <!-- Name and Job Title -->
-            <p>Lead Project Manager</p>
+            <h3>Alex Sautereau</h3>
+            <p>Lead Project Manager / Software Engineer</p>
             <p>
                 I am an experienced project manager with a focus on leading technical teams to deliver high-quality
                 solutions.
                 With a background in software engineering, I excel in managing complex projects and collaborating across
                 departments.
             </p>
-        </div>
 
-        <!-- Pane 3: Main Content (Right) -->
-        <div class="main-content">
             <!-- Core Skills -->
             <section id="core-skills">
                 <h2>Core Skills</h2>
@@ -54,6 +51,10 @@
                     <li>Technical Knowledge in R and C++</li>
                 </ul>
             </section>
+        </div>
+
+        <!-- Pane 3: Main Content (Right) -->
+        <div class="main-content">
 
             <!-- Career Summary -->
             <section id="career-summary">
@@ -83,13 +84,21 @@
                             <td>2018 - 2022</td>
                             <td>Developed Nike derived applications and games to assist with marketing sales</td>
                         </tr>
+                        <tr>
+                            <td>Janitor</td>
+                            <td>Evil Corporation</td>
+                            <td>New York, USA</td>
+                            <td>2016 - 2018</td>
+                            <td>Cleaned up the offices, bathrooms and hallways while ensuring compliance with company
+                                policies</td>
+                        </tr>
                     </tbody>
                 </table>
             </section>
 
             <!-- Education -->
             <section id="education">
-                <h2>Education and Qualifications</h2>
+                <h2>Education</h2>
                 <table class="styled-table">
                     <thead>
                         <tr>
@@ -116,6 +125,42 @@
                 </table>
             </section>
 
+            <!-- Qualifications -->
+            <section id="qualifications">
+                <h2>Qualifications</h2>
+                <table class="styled-table">
+                    <thead>
+                        <tr>
+                            <th>Qualification</th>
+                            <th>Organization</th>
+                            <th>Year received</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Data Science 2022 Award</td>
+                            <td>Microsoft</td>
+                            <td>2021</td>
+                        </tr>
+                        <tr>
+                            <td>Project Management Certification (PMC)</td>
+                            <td>Darkside River</td>
+                            <td>2024</td>
+                        </tr>
+                        <tr>
+                            <td>Google Cloud Professional Data Engineer</td>
+                            <td>Google Cloud</td>
+                            <td>2024</td>
+                        </tr>
+                        <tr>
+                            <td>Excel Proficienty Certificate</td>
+                            <td>Microsoft</td>
+                            <td>2024</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
             <!-- Interests -->
             <section id="interests">
                 <h2>Interests and Hobbies</h2>
@@ -135,6 +180,14 @@
                             Hot Dog Eating Contest
                         </a>
                         <p>I've been training to compete in the famous Nathan's Hot Dog Eating Contest.</p>
+                    </li>
+                    <li>
+                        <a href="https://www.news.com.au/finance/work/people-with-the-wackiest-jobs-tasting-dog-food-sniffing-armpits-watching-paint-dry/news-story/081643cd66154fe47de374224ad06559"
+                            target="_blank">
+                            <img src="dog_food.jpeg" alt="Dog Food tester" class="interest-img">
+                            Dog Food tester
+                        </a>
+                        <p> I enjoy testing dog food in my free time.</p>
                     </li>
                 </ol>
             </section>

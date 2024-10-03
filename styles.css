@@ -27,7 +27,7 @@ body {
 
 .header .logo {
     width: 40px;
-    /* Reduced size */
+
     height: auto;
     display: inline-block;
 }
@@ -46,6 +46,20 @@ body {
 .header nav ul li a {
     color: white;
     text-decoration: none;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+    display: inline-block;
+    border: 5px solid #e3be2a;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+.logo:hover {
+    transform: scale(1.1);
 }
 
 /* Pane 2: Sidebar (Introduction and Profile) */
@@ -106,8 +120,7 @@ body {
 }
 
 .interest-img {
-    width: 10px;
-    /* Reduced size */
+    width: 80px;
     height: auto;
     border-radius: 8px;
     margin-right: 10px;
